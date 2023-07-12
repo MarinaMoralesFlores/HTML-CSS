@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Clase3</title>
+        
+    </head>
+
+    <body>
+        <h1>Ponemos Imágenes, tablas, formularios</h1>
+        <!--Para poner una imagen ponemos sólo una entrada de apertura <img> y los dos atributos obligatorios: src y alt con un valor. Copiar dirección de la imagen en src. Alt 
+        es para poner un valor alternativo en caso de que falle la imagen, así sale un texto-->
+        <!--png para trasparencias en fotos. jpg para fotos normales-->
+        <img src="https://randomwordgenerator.com/img/picture-generator/50e2dd414d4faa0df7c5d57bc32f3e7b1d3ac3e456587049722c7dd291_640.jpg" alt="Imagen sin ruta">
+        
+        <!--Las tablas se hacen con <table> - <tr> para filas y <td> para columnas-->
+        <table border="2">
+            <tr>
+                <td><strong>Columna 1</strong></td>
+                <td><strong>Columna 2</strong></td>
+                <td><strong>Columna 3</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Fila 1</strong> - Celda 1</td>
+                <td><strong>Fila 1</strong> - Celda 2</td>
+                <td><strong>Fila 1</strong> - Celda 3</td>
+            </tr>
+            <tr>
+                <td><strong>Fila 2</strong> - Celda 1</td>
+                <td><strong>Fila 2</strong> - Celda 2</td>
+                <td><strong>Fila 2</strong> - Celda 3</td>
+            </tr>
+            <tr>
+                <td><strong>Fila 3</strong> - Celda 1</td>
+                <td><strong>Fila 3</strong> - Celda 2</td>
+                <td><strong>Fila 3</strong> - Celda 3</td>
+            </tr>
+            <tr>
+                <td><strong>Fila 4</strong> - Celda 1</td>
+                <td><strong>Fila 4</strong> - Celda 2</td>
+                <td><strong>Fila 4</strong> - Celda 3</td>
+            </tr>
+        </table>
+
+        <!--Los formularios siempre tendrán la etiqueta <form>-->
+        <!--Los formularios siempre tendrán dos atributos. Action y method. Method = GET o POST. Cuando envio info por GET, se envía visible a traves de la URL no es confidencial
+            ni contraseñas.
+        Cuando utilizamos POST es para contenido confidencial, para que no se vea y esté cifrada-->
+         <!-- action = ¿A donde va este formulario? utilizaremos <input type para la info que rellenen los usuarios-->
+        <h2>Formulario</h2>
+
+        <form action="login.php" method="POST">
+                 <!-- Es importante poner el valor de name así identificamos la información que nos llega de los valores.-->
+                 <!-- Placeholder te pone lo que sería tu input por encima, cuando pulsas desaparece-->
+                 <!-- select es un selector para elegir diferentes opciones. hay que darle valor para saber recopilar los datos-->
+                 <select name="" id="" >
+                    <option value="Audi"> Audi </option>
+                    <option value="bmw">  BMW</option>
+                    <option value="mercedes"> Mercedes </option>
+                 </select>
+                 <br>
+                 <br>
+             <!-- el label nos permite etiquetar un elemento de un formulario.-->    
+            <label for="text">Aquí tu usuario</label> 
+            <br>
+            <br>
+            <input placeholder="your name" type="text" id="text" />
+            <br>
+            <br>
+            <label for="password">Aquí tu contraseña</label> 
+            <input placeholder="your name" type="password" id="password" />
+            <br>
+            <input type="checkbox" value="BMW"/>
+            <br>
+            <br>
+            <input type="checkbox" value="Audi"/>
+            <br>
+            <br>
+            <input type="checkbox"  value="Mercedes"/>
+            <br>
+            <br>
+            <input type="radio" name = "Marcas" value="Mercedes"/>
+            <br>
+            <br>
+            <input type="radio" name = "Marcas" value="Mercedes"/>
+            <br>
+            <br>
+            <input type="radio" name = "Marcas" value="Mercedes"/>
+            <br>
+            <br>
+             <!-- si quiero que esto tenga un valor inicial, lo ponemos dentro de la etiqueta de textarea-->
+            <textarea name =" " id ="" cols="30" rows="10"  > Descripción de tu perfil</textarea>
+            <input type = "submit" value="Click me!"/>
+
+        </form>
+
+    </body>
+</html>
