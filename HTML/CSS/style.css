@@ -1,0 +1,50 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*rem es font-size: rem con respecto a la fuente del elemento raiz:html*/
+}
+
+body {
+
+    /*vw: ocupa el 100% del ancho de la ventana. Si le pones el 100%
+      vh: ocupa el 100% de la largura de la ventana. Si le pones el 100. 
+      vmin -> coge el porcentaje que le digas del más pequeño y lo aplica
+      vmax -> coge el porcentaje que le digas del más grande y lo aplica. Esto sirve basicamente por el tema de cambios de tamaños de pantalla de ordenador a movil, por ejemplo
+    */
+
+    width: 100vw;
+}
+
+h2 {
+    /*Declaración. Izq: propiedad. Derecha: valor asignado*/
+    color: rgb(122, 117, 182);
+    text-align: right;
+}
+p {
+    color:rgb(119, 182, 163);
+    /*border: es poner literalmente un borde alrededor del texto. Contra más pixeles, más grueso es el borde
+    Padding: el espacio entre el texto y el borde. Contra más pixeles, más espacio.
+    px: pixeles
+    margin: espacio que hay desde el borde del elemento al exterior. Literalmente un margen de página.*/
+    border: 1px solid black;
+    padding: 15px;
+    margin: 25px;
+}
+h3{
+    color: rgb(137, 106, 211);
+ /*El em es el tamaño a cambiar junto con el número, a mayor numero, mayor tamaño*/
+    font-size: 2em;
+}
+
+.margen{
+    margin: 1px;
+    /*Font-family: cambia nombre de fuente*/
+    font-family: "Trebuchet MS";
+    /*width achica o agranda según los pixeles que le digas. Se puede poner en porcentaje tambien %.*/
+    width: 50px;
+}
+
+#parrafo1 {
+    color: rgb(165, 85, 85);
+    padding:30px;
+    margin: 50px;
+}

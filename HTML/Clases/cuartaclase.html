@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Clase4</title>
+        <!--rel = relacionado con stylesheet -> una hoja de estilos. Sabemos que href es para llevar a la ruta. lo llevamos a nuestro archivo style.css.
+        Podemos aplicar css mediante un enlace a un archivo externo como en el ejemplo de abajo-->
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /*Regla css. Header en este caso es selector. */
+            h2 {
+                /*Declaración. Izq: propiedad. Derecha: valor asignado*/
+                color: rgb(122, 117, 182);
+                text-align: right;
+                
+            }
+            p {
+                color:rgb(119, 182, 163);
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Podemos añadir style dentro de los headers.
+        text-align lo utilizaremos para centrar nuestro texto.
+        cada atributo terminara por ;-->
+        <!-- Podemos meter el style directamente en el HTML como abajo ;-->
+        <h1 style="color: rgb(197, 118, 171); text-align: center;"> Hello World!</h1>
+        <h2>Probando estilos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quod nemo praesentium aliquam nam debitis consequuntur repudiandae voluptate veniam, porro, corrupti corporis? Veritatis similique reiciendis, commodi a iusto soluta optio.</p>
+        <h3 title="Probando tooltip";> Cambiando colores </h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, incidunt.</p>
+        <h4>Lorem ipsum dolor sit amet.</h4>   
+    </body>
+</html>
