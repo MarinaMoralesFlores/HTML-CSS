@@ -2,18 +2,42 @@
 <html lang="en">
     <head>
         <title>Clase3</title>
-        
+        <!-- class= va con . + nombre = ej. .marcado
+        id va con # ej. #bordeado-->
+        <style>
+            td{
+                color: white;
+                padding: 15px;
+            } 
+
+            .marcado{
+                color: red;
+                font-weight: 1000;
+            }
+            #bordeado {
+                border: 1px solid #FFF;
+                background-color: rgb(81, 135, 235);
+            }
+        </style>
     </head>
 
-    <body style="background-color:hsla(0,100%,50%,0.5);" >
+    <body>
         <h1>Calendario del mes</h1>
 
         <!--Las tablas se hacen con <table> - <tr> para filas y <td> para columnas-->
-        <table border="2">
-            <tr>
-                <td><label>septiembre 2022</label></td>
-            </tr>
-            <tr>
+        <table 
+        style="background-color: rgba(31, 31, 31, 255);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+     
+       <caption style="background-color: rgba(31, 31, 31, 255); color: white; padding-top: 15px; padding-left: 15px; text-align: left; "> septiembre de 2022 </caption>
+    <!-- otra manera de hacer el titulo:
+    <tr>
+        <td> colspan= "7(cuenta los dias de la semana, en este caso las columnas de la tabla)" (hay que añadirle style)
+        </td>    
+    </tr>
+    -->
+    
+            <tr style="align-items: center">
                 <td>L</td>
                 <td>M</td>
                 <td>X</td>
@@ -36,14 +60,14 @@
                 <td>6</td>
                 <td>7</td>
                 <td>8</td>
-                <td>9</td>
+                <td class="marcado">9</td>
                 <td>10</td>
                 <td>11</td>
             </tr>
             <tr>
                 <td>12</td>
                 <td>13</td>
-                <td>14</td>
+                <td id="bordeado">14</td>
                 <td>15</td>
                 <td>16</td>
                 <td>17</td>
@@ -51,7 +75,7 @@
             </tr>
             <tr>
                 <td>19</td>
-                <td>20</td>
+                <td style="color:white; padding: 8px; background-color: rgba(0, 120, 215, 255); border: rgba(31, 31, 31, 255) 7px double;">20</td>
                 <td>21</td>
                 <td>22</td>
                 <td>23</td>
