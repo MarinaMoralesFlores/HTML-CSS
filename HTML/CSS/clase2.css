@@ -1,0 +1,29 @@
+div {
+    border: 1px solid black;
+    /*Cuando ponemos width 90% es que ocupe el 90% de la pantalla
+    Breakpoints se añadirá cuando veamos que probamos pantalla x pantalla y quede bien y de repente una queda mal. En esa, se añade breakpoint. @media... */
+    width: 100%;
+    /*margin: 20% auto;
+    height: 100vh*/
+    box-sizing: border-box;
+    color: var(--clear-green);
+    background-color: var(--dark-blue);
+    height: 50%;
+    margin: 20% auto;
+    border-radius: 50px;
+}
+
+:root {
+    /*las variables de CSS en :root van dentro de var();*/
+    --dark-blue: #2f3e46;
+    --clear-green: #84a98c;
+}
+
+h1 { 
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+}
+
+html {
+    background-color:  var(--clear-green);
+}

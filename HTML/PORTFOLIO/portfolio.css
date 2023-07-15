@@ -1,0 +1,15 @@
+:root {
+    --pastel-pink: #FEC8D8;
+
+}
+
+html {
+    background-color: var(--pastel-pink);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.imgRedonda {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
