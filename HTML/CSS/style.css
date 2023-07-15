@@ -62,5 +62,36 @@ h3{
     padding: 1em;
     border-radius: 0.5em;
     border: 1px solid #220404;
-    
+    max-width: 60%;
+    text-align: center;
+    /*auto (automático) en margin -> le podemos poner 4 porcentajes seguidos, uno por lado en las agujas del reloj. Si ponemos 2 medidas, la 1 es arriba y abajo y la 2 es derecha e izquierda.
+    */
+    margin: 20% auto;
+}
+
+h6 {
+    margin-top: 0;
+    color:rgb(41, 8, 73);
+    font-size:  1.2rem;
+    font-weight: bold;
+    /*text-transform -> uppercase te lo pone en mayusculas*/
+    text-transform: uppercase;
+}
+
+
+/*Aqui ponemos @media de cabecera con sus medidas para que se vea de una manera diferente depende de donde te metas.*/
+@media (min-width: 800px) {
+    .panel {
+        background-color: rgb(113, 113, 184);
+        color: white; 
+    /*Aqui se escribe el código para el dispositivo que queramos que se vea*/
+}
+
+@media (min-width: 1200px) {
+    /*Aqui se escribe el código para el dispositivo que queramos que se vea*/
+    .panel {
+        background-color: rgb(79, 131, 115);
+    /*Aqui se escribe el código para el dispositivo que queramos que se vea*/
+}
+}
 }
