@@ -39,7 +39,7 @@ h3{
     margin: 1px;
     /*Font-family: cambia nombre de fuente*/
     font-family: "Trebuchet MS";
-    /*width achica o agranda según los pixeles que le digas. Se puede poner en porcentaje tambien %.*/
+    
     width: 50px;
 }
 
@@ -47,4 +47,20 @@ h3{
     color: rgb(165, 85, 85);
     padding:30px;
     margin: 50px;
+    /*height - > altura con la siguiente header o parrafo%.*/
+    height: 4em;
+    /*border-radius -> border redondeados.*/
+    /*Las medidas pueden ser px, em, rem o %.*/
+    border-radius: 20px;
+}
+/*:root es la raiz entera del html*/
+:root{
+    font-size: 0.875em;
+}
+
+.panel {
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #220404;
+    
 }
