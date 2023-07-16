@@ -1,0 +1,46 @@
+html {
+    background-color: #EAEDF2;
+    border-radius: 20px;
+    padding: 40px;
+}
+caption {
+    color: black;
+    border-radius: 15px;
+}
+
+table{
+    background-color: white;
+    width: 19%;
+    height: 40%;
+    border-spacing: 30px;
+    border-radius: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 440;
+    margin: 20% auto;
+    /* Esto quita espacio entre columnas
+    border-collapse: collapse;*/
+
+}
+
+.gris {
+    color: #bdc0c5;
+    background-color: #76787c;
+}
+
+#section1 {
+    background-color: #76787c;
+}
+
+caption {
+    margin: 30%;
+
+}
+
+td {
+    text-align: center;
+}
+
+:root {
+  
+        text-align: center;
+}

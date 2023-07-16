@@ -1,0 +1,31 @@
+html {
+    background-color: rgb(211, 84, 84);
+
+}
+
+table {
+    background-color: white;
+    padding: 20% auto;
+    width: 28%;
+    height: 60%;
+    border-spacing: 40%;
+    font-weight: 440;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    margin: 20% auto;
+}
+.grisoscuro {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border-collapse: collapse;
+    width: 30px;
+}
+
+td {
+    text-align: center; 
+
+    }
+
+:root {
+    text-align: center;
+}
