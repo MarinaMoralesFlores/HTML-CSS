@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Primer calendario</title>
+         <!--Buscar la fuente en Google fonts y añadirla o bien dentro del head o en el propio CSS.-->
+        <link rel="stylesheet" href="Solucion2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:ital@1&family=Poppins:wght@300&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+
+        </style>
+    </head>
+    <!--La altura y anchura siempre irá ligada al elemento padre. Ajustar el elemento padre como es body junto con los hijos para conseguir un buen ajuste-->
+    <body>
+        <div>
+            <form>
+                <select name="mes" id="mes">
+                    <option value="">Ene</option>
+                    <option value="" selected>Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Abr</option>
+                    <option value="">May</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Ago</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dic</option>
+                </select>
+                <select name="año" id="año">
+                    <option selected>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                </select>
+            </form>
+            <table>
+                <tr>
+                    <td>M</td>
+                    <td>T</td>
+                    <td>W</td>
+                    <td>T</td>
+                    <td>F</td>
+                    <td>S</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td class="dayoff">27</td>
+                    <td class="dayoff">28</td>
+                    <td class="dayoff">29</td>
+                    <td class="dayoff">30</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td class="selectedDay roundLeft">16</td>
+                    <td class="selectedDay">17</td>
+                </tr>
+                <tr>
+                    <td class="selectedDay">18</td>
+                    <td class="selectedDay">19</td>
+                    <td class="selectedDay roundRight">20</td>
+                    <td class="selectedDay roundLeft roundRight holiday">21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+
+            </table>
+            <span>
+                <button>Back</button>
+                <button>Apply</button>
+            </span>
+        </div>      
+    </body>
+</html>
