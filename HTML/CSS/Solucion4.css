@@ -1,0 +1,33 @@
+:root {
+    background-color: #F3F4F6 ;
+}
+
+body {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    margin: 15% auto;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 40px;
+    padding-top: 0.1%;
+    }
+
+    .border{
+        padding: 15px;
+        border-radius: 0.2em;
+        margin-top: -1px;
+    }
+
+div {
+ 
+}
+button {
+    background-color: rgb(118, 118, 223);
+    color:white;
+    padding: 10px;
+    width: 85%;
+    border-radius: 3px;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
