@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Primer calendario</title>
+         <!--Buscar la fuente en Google fonts y añadirla o bien dentro del head o en el propio CSS.-->
+
+        <style>
+            :root{
+                background-color: #b1afb6;
+                color: white;
+            }
+
+            body {
+                background-color: #2A292E;
+                margin: 15% auto;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                padding-top: 1.5em;
+                width: 30%;
+            }
+
+            table {
+                text-align: center;
+                padding:8px;
+                border-spacing: 25px;
+                margin: 14.5%;
+                margin-top: -2%;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                
+            }
+
+            .marcado {
+                color: #bdc0c5;
+            }
+
+            caption {
+                margin: -5%;
+            }
+            #marcar {
+                padding: 0.6em;
+                border-radius: 30px;
+            }
+
+        </style>
+    </head>
+    <!--La altura y anchura siempre irá ligada al elemento padre. Ajustar el elemento padre como es body junto con los hijos para conseguir un buen ajuste-->
+    <body>
+        <caption>
+            julio de 2023
+            
+        </caption>
+               <table>
+                
+                <tr>
+                    <td>Su</td>
+                    <td>Mo</td>
+                    <td>Tu</td>
+                    <td>We</td>
+                    <td>Th</td>
+                    <td>Fr</td>
+                    <td>Sa</td>
+            </tr>
+        <tr>
+            <td class="marcado">25</td>
+            <td class="marcado">26</td>
+            <td class="marcado">27</td>
+            <td class="marcado">28</td>
+            <td class="marcado">29</td>
+            <td class="marcado">30</td>
+            <td>1</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+</tr>
+<tr>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>11</td>
+    <td>12</td>
+    <td>14</td>
+    <td>15</td>
+</tr>
+<tr>
+    <td>16</td>
+    <td style="background-color:rgb(90, 199, 199)" id="marcar">17</td>
+    <td>18</td>
+    <td>19 </td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+</tr>
+<tr>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+</tr>
+<tr>
+    <td>30</td>
+    <td>31</td>
+    <td class="marcado">1</td>
+    <td class="marcado">2</td>
+    <td class="marcado">3</td>
+    <td class="marcado">4</td>
+    <td class="marcado">5</td>
+</tr>
+</table>
+    </body>
+</html>
