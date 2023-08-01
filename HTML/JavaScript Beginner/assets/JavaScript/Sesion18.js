@@ -101,25 +101,25 @@
 // //
 
 //Ejercicio 2
-// let d = new Date();
-// let mes = d.getMonth();
+let d = new Date();
+let mes = d.getMonth();
 
-// let month = prompt("Indica el mes")
+let month = prompt("Indica el mes")
 
-// if(month == 'Enero' || month == 'Marzo' || month == 'Mayo' || month == 'Julio'
-// || month == 'Agosto' || month == 'Octubre' || month == 'Diciembre'){
-//     console.log("Este mes tiene 31 días")
-// }
-// else if (month == 'Abril' || month == 'Junio' || month == 'Septiembre' || month == 'Noviembre'
-// ) {
-//     console.log("Este mes tiene 30 días")
-// }
-// else if (month == 'Febrero') {
-//     console.log ("Este mes tiene 28 días")
-// }
-// else {
-//     console.log ("No un mes real")
-// }
+if(month == 'Enero' || month == 'Marzo' || month == 'Mayo' || month == 'Julio'
+|| month == 'Agosto' || month == 'Octubre' || month == 'Diciembre'){
+    console.log("Este mes tiene 31 días")
+}
+else if (month == 'Abril' || month == 'Junio' || month == 'Septiembre' || month == 'Noviembre'
+) {
+    console.log("Este mes tiene 30 días")
+}
+else if (month == 'Febrero') {
+    console.log ("Este mes tiene 28 días")
+}
+else {
+    console.log ("No un mes real")
+}
 
 // Ejercicio 3
 
@@ -161,21 +161,21 @@
 
 
 //EJERCICIO 5
-let temperature;
-let grados;
-let fare = (9/5*grados)+32;
-switch(temperature) {
-    case "Absolute Zero":
-        grados =  -273.15
-        console.log(fare);
-        break;
-    case "Freezing point":
-        grados = 0
-    case "Body Temperature":
-        grados = 37
-    case "Boiling point":
-        grados = 100
-}
+// let temperature;
+// let grados;
+// let fare = (9/5*grados)+32;
+// switch(temperature) {
+//     case "Absolute Zero":
+//         grados =  -273.15
+//         console.log(fare);
+//         break;
+//     case "Freezing point":
+//         grados = 0
+//     case "Body Temperature":
+//         grados = 37
+//     case "Boiling point":
+//         grados = 100
+// }
 
 // switch (character) {
 //     case "Captain America":
@@ -246,10 +246,10 @@ switch(temperature) {
 // console.log(n1*n2)
 //EJERCICIO 9 
 
-let preg = prompt ("Introduce tu DNI")
-let dni;
+// let preg = prompt ("Introduce tu DNI")
+// let dni;
 
-if (dni) {
+// if (dni) {
 
-}
+
 //EJERCICIO 10

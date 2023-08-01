@@ -45,6 +45,28 @@
 //      break;
 //  }
 
+//Ejercicio 2
+
+// let d = new Date();
+// let mes = d.getMonth();
+
+// let month = prompt("Indica el mes")
+
+// if(month == 'Enero' || month == 'Marzo' || month == 'Mayo' || month == 'Julio'
+// || month == 'Agosto' || month == 'Octubre' || month == 'Diciembre'){
+//     console.log("Este mes tiene 31 días")
+// }
+// else if (month == 'Abril' || month == 'Junio' || month == 'Septiembre' || month == 'Noviembre'
+// ) {
+//     console.log("Este mes tiene 30 días")
+// }
+// else if (month == 'Febrero') {
+//     console.log ("Este mes tiene 28 días")
+// }
+// else {
+//     console.log ("No un mes real")
+// }
+
 //Ejercicio 4
 
 // let isGreen = true;
@@ -141,68 +163,88 @@
 //     break;
 // }
 
+
+//Ejercicio 8
+let num1 = prompt("Choose your first number");
+let num2 = prompt ("Choose your second number");
+let op = prompt ("Elige la operación a realizar")
+switch(op) {
+  case "suma":
+    console.log(parseInt(num1)+parseInt(num2));
+    break;
+  case "resta":
+    console.log(num1-num2);
+    break;
+  case "multi":
+    console.log(num1*num2);
+    break;
+  case "divide":
+    console.log (num1/num2)
+    break;
+}
+
 //Ejercicio 9
 //Comprobador de DNI
-let identificacion = prompt(
-  "¿Se va a registrar con el DNI o con el NIE?"
-).toUpperCase();
-switch (identificacion) {
-  case "DNI":
-    var DNI = prompt("Introduzca su DNI");
-    if (
-      DNI.charCodeAt(0) >= 48 &&
-      DNI.charCodeAt(0) <= 57 &&
-      DNI.charCodeAt(1) >= 48 &&
-      DNI.charCodeAt(1) <= 57 &&
-      DNI.charCodeAt(2) >= 48 &&
-      DNI.charCodeAt(2) <= 57 &&
-      DNI.charCodeAt(3) >= 48 &&
-      DNI.charCodeAt(3) <= 57 &&
-      DNI.charCodeAt(4) >= 48 &&
-      DNI.charCodeAt(4) <= 57 &&
-      DNI.charCodeAt(5) >= 48 &&
-      DNI.charCodeAt(5) <= 57 &&
-      DNI.charCodeAt(6) >= 48 &&
-      DNI.charCodeAt(6) <= 57 &&
-      DNI.charCodeAt(7) >= 48 &&
-      DNI.charCodeAt(7) <= 57 &&
-      DNI.charCodeAt(8) >= 65 &&
-      DNI.charCodeAt(8) <= 90
-    ) {
-      alert("You logged correctly");
-    } else {
-      alert("Your DNI number is incorrect");
-    }
-    break;
-  case "NIE":
-    var NIE = prompt("Introduzca su NIE");
-    if (
-      (NIE.charCodeAt(0) == 84 || NIE.charCodeAt(0) == 88) &&
-      NIE.charCodeAt(1) >= 48 &&
-      NIE.charCodeAt(1) <= 57 &&
-      NIE.charCodeAt(2) >= 48 &&
-      NIE.charCodeAt(2) <= 57 &&
-      NIE.charCodeAt(3) >= 48 &&
-      NIE.charCodeAt(3) <= 57 &&
-      NIE.charCodeAt(4) >= 48 &&
-      NIE.charCodeAt(4) <= 57 &&
-      NIE.charCodeAt(5) >= 48 &&
-      NIE.charCodeAt(5) <= 57 &&
-      NIE.charCodeAt(6) >= 48 &&
-      NIE.charCodeAt(6) <= 57 &&
-      NIE.charCodeAt(7) >= 48 &&
-      NIE.charCodeAt(7) <= 57 &&
-      NIE.charCodeAt(8) >= 65 &&
-      NIE.charCodeAt(8) <= 90
-    ) {
-      alert("You logged correctly");
-    } else {
-      alert("Your NIE number is incorrect");
-    }
-    break;
-  default:
-    alert("Incorrect option");
-}
+// let identificacion = prompt(
+//   "¿Se va a registrar con el DNI o con el NIE?"
+// ).toUpperCase();
+// switch (identificacion) {
+//   case "DNI":
+//     var DNI = prompt("Introduzca su DNI");
+//     if (
+//       DNI.charCodeAt(0) >= 48 &&
+//       DNI.charCodeAt(0) <= 57 &&
+//       DNI.charCodeAt(1) >= 48 &&
+//       DNI.charCodeAt(1) <= 57 &&
+//       DNI.charCodeAt(2) >= 48 &&
+//       DNI.charCodeAt(2) <= 57 &&
+//       DNI.charCodeAt(3) >= 48 &&
+//       DNI.charCodeAt(3) <= 57 &&
+//       DNI.charCodeAt(4) >= 48 &&
+//       DNI.charCodeAt(4) <= 57 &&
+//       DNI.charCodeAt(5) >= 48 &&
+//       DNI.charCodeAt(5) <= 57 &&
+//       DNI.charCodeAt(6) >= 48 &&
+//       DNI.charCodeAt(6) <= 57 &&
+//       DNI.charCodeAt(7) >= 48 &&
+//       DNI.charCodeAt(7) <= 57 &&
+//       DNI.charCodeAt(8) >= 65 &&
+//       DNI.charCodeAt(8) <= 90
+//     ) {
+//       alert("You logged correctly");
+//     } else {
+//       alert("Your DNI number is incorrect");
+//     }
+//     break;
+//   case "NIE":
+//     var NIE = prompt("Introduzca su NIE");
+//     if (
+//       (NIE.charCodeAt(0) == 84 || NIE.charCodeAt(0) == 88) &&
+//       NIE.charCodeAt(1) >= 48 &&
+//       NIE.charCodeAt(1) <= 57 &&
+//       NIE.charCodeAt(2) >= 48 &&
+//       NIE.charCodeAt(2) <= 57 &&
+//       NIE.charCodeAt(3) >= 48 &&
+//       NIE.charCodeAt(3) <= 57 &&
+//       NIE.charCodeAt(4) >= 48 &&
+//       NIE.charCodeAt(4) <= 57 &&
+//       NIE.charCodeAt(5) >= 48 &&
+//       NIE.charCodeAt(5) <= 57 &&
+//       NIE.charCodeAt(6) >= 48 &&
+//       NIE.charCodeAt(6) <= 57 &&
+//       NIE.charCodeAt(7) >= 48 &&
+//       NIE.charCodeAt(7) <= 57 &&
+//       NIE.charCodeAt(8) >= 65 &&
+//       NIE.charCodeAt(8) <= 90
+//     ) {
+//       alert("You logged correctly");
+//     } else {
+//       alert("Your NIE number is incorrect");
+//     }
+//     break;
+//   default:
+//     alert("Incorrect option");
+// }
 
 
 //Ejercicio 10
