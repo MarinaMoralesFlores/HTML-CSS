@@ -139,3 +139,5 @@
         for (let i = 0; i<Object.keys(shoppingCart).length; i++) {
             console.log ("id: " + keys[i].product_id + " , Name: "  +keys[i].name);
         }
+
+        console.log ()
