@@ -87,9 +87,9 @@
 //     console.log(`${element} is at index: ${index} in this array: [${array}]`);
 // });
 
-[..."Soverano de Angmar en tiempos pasados"].forEach((letter) => {
-    console.log(letter)
-})
+// [..."Soverano de Angmar en tiempos pasados"].forEach((letter) => {
+//     console.log(letter)
+// })
 
 //Mapeo
 // let numbers = [1,2,3];
@@ -157,3 +157,5 @@
 // };
 
 // console.log(sum(2,2))
+
+
