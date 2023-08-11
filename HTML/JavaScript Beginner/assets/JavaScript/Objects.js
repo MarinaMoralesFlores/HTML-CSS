@@ -39,7 +39,7 @@
 
     class Avengers {
         //metodo constructor es metodo x defecto en cada clase. cada vez que hagamos new OBject()
-        //Estamos llamando al metodo constructor
+        //Estamos llamando al metodo constructor. Es como una funcion que le da valor a su propiedades
     constructor(character, name) {
         //this referencia propiedades y metodos de clase internamente. Se utiliza para referenciar
        // la propiedad de la clase
